@@ -1,18 +1,15 @@
-var a, b;
 
-function add(){
-  a + b;
+
+function add(a, b){
+  return a + b;
 }
-function substract(){
-  a - b;
+function substract(a, b){
+  return a - b;
 }
-function multiply(){
-  a * b;
+function multiply(a, b){
+  return a * b;
 }
-function divide(){
-  a / b;
+function divide(a, b){
+  return a / b;
 }
-add(1, 80);
-substract(60, 40);
-multiply(2, 3.4);
-divide(5.0, 2.5);
+function 
